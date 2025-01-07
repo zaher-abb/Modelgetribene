@@ -9,4 +9,5 @@ public class WeatherStation extends Subject {
         this.forecast = forecast;
         Notify(forecast); // Notify all observers
     }
+
 }

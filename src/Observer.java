@@ -4,6 +4,5 @@ public abstract class Observer {
     public Observer(String name) {
         this.name = name;
     }
-
     public abstract void Update(String forecast);
 }

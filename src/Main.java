@@ -6,12 +6,10 @@ public class Main {
         // Create observers (people)
         Person alice = new Person("Alice");
         Person bob = new Person("Bob");
-        Person charlie = new Person("Charlie");
 
         // Attach observers to the subject
         weatherStation.Attach(alice);
         weatherStation.Attach(bob);
-        weatherStation.Attach(charlie);
 
         // Update weather forecast
         weatherStation.SetForecast("Sunny with clear skies");
